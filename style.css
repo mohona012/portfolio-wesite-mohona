@@ -1,0 +1,203 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.port{
+	display: flex;
+	width: 100%;
+	height: 100%;
+
+}
+.left{
+	flex-basis: 30%;
+	height: 100%;
+	background: #0070C0;
+	position: relative;
+	
+}
+
+
+.logo{
+	margin-left: 100px;
+	margin-top: 20px; 
+}
+.whitebar{
+	position: absolute;
+	height: 20px;
+	width: 280px;
+	background: #fff;
+	top: 160px;
+	right: 0;
+
+}
+.quote{
+	width: 400px;
+	top: 200px;
+	right: -18px;
+	position: absolute;
+	color: #FFF;
+}
+.quote p{
+	margin-top: 10px;
+	color: #ffffffc7;
+	font-size: 23px;
+}
+.small-img{
+	bottom: 50px;
+	right: -43px;
+	position: absolute;
+}
+.line{
+	width: 2px;
+	height: 80px;
+	background: #000;
+	position: absolute;
+	right: -40px;
+	bottom: 34px;
+
+}
+.line::after{
+	content: '13-07';
+	position: absolute;
+	top: -30px;
+	left: -17px;
+	font-size: 10px;
+	letter-spacing: 1px;
+	transform: rotate(-90deg);
+
+}
+.right{
+	flex-basis: 70%;
+	height: 100%;
+	position: relative;
+}
+.navbar{
+	position: absolute;
+	right: 45px;
+	top: 25px;
+	display: flex;
+}
+
+.navbar li{
+	list-style: none;
+	margin: 0 40px;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.bluebar{
+	position: absolute;
+	height: 20px;
+	width: 280px;
+	background: #0070C0;
+	top: 160px;
+	left: 0;
+
+
+}
+.bluebar span{
+	position: absolute;
+	height: 20px;
+	width: 6px;
+	background: #0070C0;
+	top: 0px;
+	left: 287px;
+
+
+}
+.large-img{
+	position: absolute;
+	top: 160px;
+	right: 140px;
+	width: 370px;
+
+}
+.text-box{
+	position: absolute;
+	top: 30%;
+	left: 4%;
+	width: 460px;
+
+}
+.text-box h5{
+	font-size: 50px;
+	font-weight: 100;
+	line-height: 60px;
+}
+
+.text-box p{
+	text-align: justify;
+    text-justify: inter-word;
+	font-size: 18px;
+	margin-top: 30px;
+	padding-right: 20px;
+	color: #555;
+
+
+}
+.line3{
+	position: absolute;
+	right: 85px;
+	bottom: -60px;
+	width: 70px;
+	height: 2px;
+	background: #000;
+
+}
+
+.line3 span{
+	position: absolute;
+	right: 75px;
+	width: 5px;
+	height: 2px;
+	background: #000;
+
+}
+.movielist{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	width: 460px;
+}
+
+.movielist h5{
+	font-size: 30px;
+	font-weight: 100;
+	line-height: 60px;
+	color: #0070C0;
+}
+.movielist p{
+	font-size: 18px;
+	margin-top: 30px;
+	padding-right: 20px;
+	color: black;
+
+
+}
+.table{
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	width: 650px;
+}
+.table h4{
+	font-size: 15px;
+	font-weight: 60;
+	line-height: 60px;
+	color: black;
+}
+.table td{
+	padding: 6px;
+}
+.links{
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	width: 650px;
+
+}
+.links li{
+	margin-top: 15px;
+}
